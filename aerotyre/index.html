@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AeroTyres | Aviation Tyres & Spare Parts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Simple Animation -->
+  <style>
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .animate-fade {
+      animation: fadeInUp 1s ease-out forwards;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 font-sans">
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="relative bg-cover bg-center h-[650px] flex items-center"
+           style="background-image: url('assets/images/hero.png');">
+
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 max-w-7xl mx-auto px-6 text-white animate-fade">
+
+      <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+        Premium <span class="text-yellow-400">Aviation Tyres</span><br>
+        & Spare Parts
+      </h1>
+
+      <p class="text-lg md:text-xl mb-8 max-w-2xl">
+        Certified aircraft tyres and aviation spare parts supplied globally 
+        to airlines, MROs, and aviation service providers with full compliance and reliability.
+      </p>
+
+      <div class="flex flex-wrap gap-4">
+        <a href="products.html"
+           class="bg-yellow-500 text-black px-8 py-3 rounded-lg font-bold hover:bg-yellow-400 transition duration-300">
+           Explore Products
+        </a>
+
+        <a href="contact.html"
+           class="border border-white px-8 py-3 rounded-lg hover:bg-white hover:text-black transition duration-300">
+           Request Quote
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- ================= END HERO ================= -->
+
+
+  <!-- ================= ABOUT SECTION ================= -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+
+      <h2 class="text-3xl font-bold text-gray-800 mb-6">
+        Trusted Aviation Supplier Worldwide
+      </h2>
+
+      <p class="text-gray-600 max-w-3xl mx-auto mb-8">
+        AeroTyres is a global distributor of certified aviation tyres and aircraft spare parts.
+        We support airlines, cargo operators, private fleets, and maintenance organizations 
+        with fast procurement and technical expertise.
+      </p>
+
+      <a href="about.html"
+         class="bg-blue-900 text-white px-8 py-3 rounded-lg hover:bg-blue-800 transition">
+         Learn More
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- ================= PRODUCTS SECTION ================= -->
+  <section class="py-20 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+
+      <h2 class="text-3xl font-bold text-gray-800 mb-12">
+        Our Core Offerings
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-10">
+
+        <!-- Aviation Tyres -->
+        <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition duration-300">
+          <h3 class="text-xl font-bold mb-4">Aviation Tyres</h3>
+          <p class="text-gray-600 mb-6">
+            Radial and bias aircraft tyres engineered for durability, safety, 
+            and optimal runway performance.
+          </p>
+          <a href="products.html"
+             class="text-blue-900 font-semibold hover:underline">
+             View Products →
+          </a>
+        </div>
+
+        <!-- Spare Parts -->
+        <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition duration-300">
+          <h3 class="text-xl font-bold mb-4">Aircraft Spare Parts</h3>
+          <p class="text-gray-600 mb-6">
+            Comprehensive inventory of OEM-certified aircraft components 
+            ready for worldwide shipment.
+          </p>
+          <a href="products.html"
+             class="text-blue-900 font-semibold hover:underline">
+             Browse Inventory →
+          </a>
+        </div>
+
+        <!-- Support -->
+        <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition duration-300">
+          <h3 class="text-xl font-bold mb-4">Technical Consultation</h3>
+          <p class="text-gray-600 mb-6">
+            Expert advisory services for fleet tyre selection, compliance, 
+            and maintenance support.
+          </p>
+          <a href="contact.html"
+             class="text-blue-900 font-semibold hover:underline">
+             Get Support →
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= CALL TO ACTION ================= -->
+  <section class="py-20 bg-blue-900 text-white text-center">
+    <h2 class="text-3xl font-bold mb-6">
+      Need a Custom Aviation Tyre Quote?
+    </h2>
+
+    <p class="mb-8 text-lg">
+      Contact our procurement specialists for competitive pricing and rapid response.
+    </p>
+
+    <a href="contact.html"
+       class="bg-yellow-500 text-black px-8 py-3 rounded-lg font-bold hover:bg-yellow-400 transition duration-300">
+       Request a Quote
+    </a>
+  </section>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-gray-900 text-gray-400 py-8 text-center">
+    <p>&copy; 2026 AeroTyres. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
